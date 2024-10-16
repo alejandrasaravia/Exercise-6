@@ -1,8 +1,4 @@
-def printHello():
+def Hello():
     print("hello")
-
-def printGoodbye():
-    print("goodbye")
     
-printHello()
-printGoodbye()
+Hello()
