@@ -1,0 +1,43 @@
+<htmL>
+    <head>
+        <title>INST377 - Contact Form</title>
+        <style>
+            body {
+                background-color:rgb(229, 142, 214)
+            }
+            .contactUs input[type="text"] {
+                margin: 5px;
+                font-size: 18px;
+                padding: 8px;
+            }
+            .contactUs label {
+                font-size: 20px;
+            }
+            input[type="submit"] {
+                background: rgb(105, 200, 90);
+                color: white;
+                margin: 10px;
+                padding: 10px 20px;
+            }
+            input:hover[type="submit"] {
+                background: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <form name="contactForm" method="get" action="formsuccess.html">
+            <div class="contactUs">
+                <!-- Username Details -->
+                <label for="firstName">Name:</label>
+                <input type="text" id="firstName" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+                <br><hr>
+            </div>
+                <!-- Submit Button -->
+                <input type="submit" value="Submit!">
+        </form>
+    </body>
+</htmL>
